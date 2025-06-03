@@ -1,0 +1,16 @@
+// create a new branch
+git branch (branch-name)
+
+// switch to the branch
+git checkout (branch-name)
+
+// to stage, add and commit the change in tye branch
+echo "new features" > features.txt //optional
+git add . / adds the files in the current branch
+git commit -m "message"
+
+// switch back to main
+git checkout main
+
+//merging the branch to main
+git merge (branch-name)

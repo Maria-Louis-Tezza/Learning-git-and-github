@@ -1,0 +1,39 @@
+// to clone a repo
+git clone "URL"
+
+// to stage a file for commit
+git add . // for all files
+
+// to commit a file
+git commit -m "your message"
+
+// to push a file
+git push origin main //to push to main branch
+
+// to pull a file
+git pull origin main
+
+//to change the username,mail 
+git config user.name
+git config user.mail
+
+// to view status
+git status
+
+// to view current branch
+git branch
+
+// to check log
+git log
+
+// to check current repo remote like fetch and push repo
+git remote -v
+
+// to stage, add and commit the change in tye branch
+echo "new features" > features.txt //optional
+git add . / adds the files in the current branch
+git commit -m "message"
+
+//to add a remote 
+git remote add origin (remote-URL)
+
