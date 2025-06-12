@@ -9,6 +9,9 @@ echo "new features" > features.txt //optional
 git add . / adds the files in the current branch
 git commit -m "message"
 
+// to push the code to the branch
+git push --set-upstream origin "branchname"
+
 // switch back to main
 git checkout main
 
